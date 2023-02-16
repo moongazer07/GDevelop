@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - jimp > request > extend:
+        patched: '2023-02-16T20:19:15.891Z'
+  'npm:hoek:20180212':
+    - jimp > request > hawk > hoek:
+        patched: '2023-02-16T20:19:15.891Z'
+    - jimp > request > hawk > boom > hoek:
+        patched: '2023-02-16T20:19:15.891Z'
+    - jimp > request > hawk > sntp > hoek:
+        patched: '2023-02-16T20:19:15.891Z'
+    - jimp > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-02-16T20:19:15.891Z'
+  'npm:stringstream:20180511':
+    - jimp > request > stringstream:
+        patched: '2023-02-16T20:19:15.891Z'
